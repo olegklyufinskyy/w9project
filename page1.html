@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC Fishing Club</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        body {
+            background-image: url('https://urbanfishfarmer.com/wp-content/uploads/2023/03/hybrid-bass-aquaponics.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        
+        .styled-paragraph {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .custom-link:hover {
+            text-decoration: underline;
+        }
+
+       
+        .navbar-nav .nav-link {
+            color: #000; 
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #007BFF; 
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="container text-center">
+            <h1>NYC Fishing Club</h1>
+        </div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">NYC Fishing Club</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="page1.html">NYC Fishing Club</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="page2.html">Fishing Rules</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="page3.html">Fishing Calendar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <h1 class="text-center">About Our Club</h1>
+        <div class="styled-paragraph">
+            <p>Our <strong>NYC Fishing Club</strong> is a community of passionate anglers who share a common love for the sport of fishing. We are dedicated to promoting responsible fishing practices, preserving the environment, and creating memorable fishing experiences for our members.</p>
+            
+            <p>With our club, you'll have the opportunity to connect with fellow anglers, exchange tips and tricks, and explore some of the best fishing spots in the region. Whether you're a seasoned pro or a beginner, our club welcomes enthusiasts of all skill levels.</p>
+            
+            <p>Join us in our mission to foster a sense of camaraderie among fishing enthusiasts and to protect our waters for future generations. We regularly organize fishing trips, competitions, and educational events to enhance your fishing knowledge and skills.</p>
+            
+            <p>Together, we aim to create lasting memories, share our passion for fishing, and contribute to the conservation of our aquatic ecosystems. Come be a part of our <strong>NYC Fishing Club</strong> family and embark on a journey filled with adventure, fun, and of course, plenty of fish!</p>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <form>
+            <h2 class="text-center">Sign up or Login</h2>
+            <div class="mb-3">
+                <input type="text" class="form-control" name="firstName" placeholder="First Name">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" name="lastName" placeholder="Last Name">
+            </div>
+            <div class="mb-3">
+                <input type="radio" name="experiences" value="Professional" id="professional">
+                <label for="professional"><strong>Professional</strong></label><br>
+                <input type="radio" name="experiences" value="Junior" id="junior">
+                <label for="junior"><strong>Junior</strong></label>
+            </div>
+            <div class="mb-3">
+                <h3>Security code</h3>
+                <input type="password" class="form-control" name="password" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+   
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
